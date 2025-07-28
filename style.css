@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: rgba(255, 217, 0, 0.279);
+    display: flex;
+    /* gap: 40px; */
+    justify-content: space-around;
+}
+.header h1{
+    margin: 40px auto;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.header p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 20px auto;
+}
+.header button{
+    background-color: fuchsia;
+    border: none;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    color: white;
+}
+.header img{
+    width: 100%;
+    height: 400px
+}
