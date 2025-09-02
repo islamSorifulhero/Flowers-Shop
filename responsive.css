@@ -1,6 +1,11 @@
 @media screen and (max-width: 1200px) {
     .flowers-img {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 1fr);   
+    }
+    .flower-1 img {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
     }
 }
 @media screen and (max-width: 768px) {
