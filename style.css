@@ -1,102 +1,83 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
 .header {
-    background-color: rgba(255, 217, 0, 0.279);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdeef1;
+    padding: 50px 80px;
 }
 
-.header h1 {
-    margin: 40px auto;
-    font-size: 2rem;
-    font-weight: bold;
+.header-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
-.header p {
-    font-size: 0.8rem;
-    font-weight: 500;
-    margin: 20px auto;
+.header-text p {
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.6;
 }
 
-.header button {
-    background-color: fuchsia;
+.header-text button {
+    padding: 12px 25px;
+    background-color: #e55473;
     border: none;
-    padding: 10px;
-    margin: 10px auto;
-    border-radius: 5px;
     color: white;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.header img {
-    width: 100%;
-    height: 400px
+.header-img img {
+    width: 400px;
 }
 
-/* features section */
+/* Featured Flowers */
+.featured-flowers {
+    padding: 80px;
+}
+
 .featured-heading {
-    margin: 30px auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 
-.featured-flowers h1 {
-    font-size: 2rem;
-    font-weight: bold;
+.featured-heading h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
 }
 
-.featured-flowers p {
-    font-size: 1rem;
-    font-weight: 500;
+.featured-heading p {
+    color: #666;
 }
 
+/* Flowers Grid */
 .flowers-img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin: 40px auto;
-    width: 80%;
+    gap: 30px;
+    text-align: center;
+}
+
+.flower-card {
+    background-color: #f8f8f8;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.flower-card img {
+    width: 200px;
     height: auto;
-
 }
 
-.flowers-img img {
-    align-items: center;
-    width: 250px;
-    height: auto;
-    justify-content: center;
-}
-
-.flower-1 img {
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 250px;
-    height: 300px;
-    background-color: blueviolet;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-}
-
-.flower-2 img {
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 250px;
-    height: 300px;
-    background-color: paleturquoise;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-}
-
-.flower-3 img {
-    padding-top: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 250px;
-    height: 300px;
-    background-color: royalblue;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+.flower-card p {
+    margin-top: 20px;
+    text-decoration: underline;
+    font-weight: bold;
 }

@@ -1,23 +1,26 @@
 @media screen and (max-width: 1200px) {
     .flowers-img {
-        grid-template-columns: repeat(1, 1fr);   
+        grid-template-columns: repeat(1, 1fr);
     }
-    .flower-1 img {
-        align-items: center;
-        justify-content: center;
-        text-align: center;
+
+    .flower-card img {
+        margin: 0 auto;
     }
 }
+
 @media screen and (max-width: 768px) {
     .header {
         flex-direction: column;
         text-align: center;
+        padding: 40px 20px;
     }
-    .header img{
-        margin: 40px auto;
-        height: auto;
+
+    .header-img img {
+        margin-top: 40px;
+        width: 300px;
     }
-    br{
+
+    br {
         display: none;
     }
 }
