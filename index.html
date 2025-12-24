@@ -1,73 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flower Shop Practice</title>
-
-    <!-- CSS Files -->
+    <title>Flower Shop</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
 </head>
-
 <body>
 
-    <!-- Header Section -->
     <header class="header">
         <div class="header-text">
-            <h1>
-                Let's make <br>
-                beautiful flowers a <br>
-                part of your life.
-            </h1>
-            <p>
-                It is a long established fact that a reader will be distracted by the readable <br>
-                content of a page when looking at its layout. The point of using Lorem Ipsum is <br>
-                that it has a more-or-less normal distribution of letter.
-            </p>
-            <button>Shop Now</button>
+            <h1>Let's make <br> beautiful flowers a <br> part of your life.</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <button class="btn-primary">Shop Now</button>
         </div>
-
         <div class="header-img">
-            <img src="Flower Asset/pngwing 10.png" alt="Flower">
+            <img src="Flower Asset/pngwing 10.png" alt="Main Flower">
         </div>
     </header>
 
-    <!-- Main Section -->
     <main>
         <section class="featured-flowers">
-
-            <div class="featured-heading">
+            <div class="section-heading">
                 <h1>Our Featured Flowers</h1>
-                <p>
-                    It is a long established fact that a reader will be distracted by the readable <br>
-                    content of a page when looking at its layout.
-                </p>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
             </div>
-
-            <div class="flowers-img">
-                <div class="flower-card flower-1">
-                    <img src="Flower Asset/pngwing 6.png" alt="">
-                    <p>Pink Flower Tree</p>
+            <div class="flowers-grid">
+                <div class="flower-card-wrapper">
+                    <div class="flower-card pink-bg">
+                        <img src="Flower Asset/pngwing 6.png" alt="">
+                    </div>
+                    <p class="flower-title">Pink Flower Tree</p>
                 </div>
-
-                <div class="flower-card flower-2">
-                    <img src="Flower Asset/pngwing 5.png" alt="">
-                    <p>Pink Flower Tree</p>
+                <div class="flower-card-wrapper">
+                    <div class="flower-card blue-bg">
+                        <img src="Flower Asset/pngwing 5.png" alt="">
+                    </div>
+                    <p class="flower-title">Pink Flower Tree</p>
                 </div>
-
-                <div class="flower-card flower-3">
-                    <img src="Flower Asset/pngwing 7.png" alt="">
-                    <p>Pink Flower Tree</p>
+                <div class="flower-card-wrapper">
+                    <div class="flower-card green-bg">
+                        <img src="Flower Asset/pngwing 7.png" alt="">
+                    </div>
+                    <p class="flower-title">Pink Flower Tree</p>
                 </div>
             </div>
+        </section>
 
+        <section class="support-section">
+            <div class="support-item">
+                <img src="Flower Asset/Group 57.png" alt="">
+                <p>Same Day Delivery. Click & Collect.</p>
+            </div>
+            <div class="support-item">
+                <img src="Flower Asset/Group 58.png" alt="">
+                <p>Fresh Flowers. Local Growers.</p>
+            </div>
+            <div class="support-item">
+                <img src="Flower Asset/Group 59.png" alt="">
+                <p>24/7 Free Support.</p>
+            </div>
+        </section>
+
+        <section class="hot-deal">
+            <div class="deal-content">
+                <h2>Hot Deal ! Sale Up To 25% <span class="text-pink">Off</span></h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <button class="btn-primary">Sign Up</button>
+            </div>
+            <div class="deal-img">
+                <img src="Flower Asset/pngwing 8.png" alt="Deal Flower">
+            </div>
+        </section>
+
+        <section class="instagram-section">
+            <div class="section-heading">
+                <h1>Instagram</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            </div>
+            <div class="insta-grid">
+                <img src="Flower Asset/Flower 01.png" alt="">
+                <img src="Flower Asset/Rectangle 4.png" alt="">
+                <img src="Flower Asset/Rectangle 5.png" alt="">
+                <img src="Flower Asset/Rectangle 6.png" alt="">
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="newsletter-box">
+                <h2>Get The Latest Deals</h2>
+                <p>$30 coupon for first shopping</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Enter your email here...">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+        <h2><span class="text-pink">Flower</span>Shop</h2>
+        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+        <p class="copyright">@2020-2023, FlowerShop.com. All rights reserved.</p>
+    </footer>
 
 </body>
-
 </html>
